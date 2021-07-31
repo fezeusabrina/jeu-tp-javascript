@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;	
+ }
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	box-shadow: 2px 2px 10px rgb(164, 164, 165);
+	padding: 25px 15px 25px 15px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 130px;
+    width: 400px;
+}
+
+a.game{
+	display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #42b72a;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 0px;
+    text-decoration: none;
+    border:1 px solid #fff;
+}
+
+.header{
+	font-size: 1.1em;
+	 font-weight: bold;
+
+}
+
+#contain{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	box-shadow: 2px 2px 10px rgb(164, 164, 165);
+	padding: 25px 15px 25px 15px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 130px;
+    width: 400px;
+
+}
+
+#question{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#reponse{
+    margin-top: 10px;
+}
+
+#boutonValider{
+    margin-top: 15px;
+    padding: 10px 25px 10px 25px;
+    background-color: green;
+    color: white;
+}
+
+#points{
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+}
+
+#timerpointes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer #pointer{
+    display: inline;
+    margin-left: 10px;
+}
